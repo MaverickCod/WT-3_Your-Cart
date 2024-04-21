@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/shopping-bag-cart_23-2148879372.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-position: center;
+}
+
+
+.container {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 90%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+.Products, .Cart {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #403f7a;
+    border-radius: 5px;
+    background-color: #ffffffb9;
+}
+
+.Cart {
+    margin: 0;
+}
+
+.decrement,
+.increment {
+    font-size: 1.5em; 
+}
+
+.button {
+    background-color: #0026B1;
+    padding: 6px 12px;
+    width: 80px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00bbfa8c;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+}
+.button span {
+    margin: 0 4px; 
+}
+
+
+.button:hover {
+    background-color: #00BCFC;
+}
